@@ -54,7 +54,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     addonWaline({
       // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
-      serverURL: 'https://waline-nine-weld.vercel.app',
+      serverURL: 'https://waline-three-iota.vercel.app',
     }),
   ],
 
