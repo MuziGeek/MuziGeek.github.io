@@ -1,13 +1,20 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://blog.easymuzi.cn',
   lang: 'zh-CN',
-  title: 'Valaxy Theme Yun',
+  title: '木子的小站',
+  subtitle: 'Fake it till you make it.',
+  description: '道阻且艰 行则将至',
   author: {
-    name: '云游君',
+    name: '木子',
+    avatar: '/images/avatar.jpg',
+    status: {
+      emoji: '😣',
+    },
   },
-  description: 'Valaxy Theme Yun Preview.',
+  url: 'https://www.easymuzi.cn',
+  mediumZoom: { enable: true },
+ 
   social: [
     {
       name: 'RSS',
@@ -23,7 +30,7 @@ export default defineSiteConfig({
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/YunYouJun',
+      link: 'https://github.com/MuziGeek',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
@@ -90,7 +97,16 @@ export default defineSiteConfig({
   ],
 
   search: {
-    enable: false,
+    enable: true,
+    type: 'fuse',
+  },
+
+  comment: {
+    enable: true,
+  },
+
+  statistics: {
+    enable: true,
   },
 
   sponsor: {

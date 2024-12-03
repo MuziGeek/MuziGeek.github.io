@@ -1,4 +1,3 @@
 # you can custom locale
-intro:
-  desc: Valaxy Template
-  hi: Hello, Valaxy!
+site:
+  name: Muzi's Site
