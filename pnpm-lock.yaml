@@ -14,12 +14,21 @@ importers:
       valaxy-addon-components:
         specifier: ^0.0.4
         version: 0.0.4
+      valaxy-addon-lightgallery:
+        specifier: ^0.0.3
+        version: 0.0.3(valaxy@0.20.6(@babel/parser@7.26.2)(@nuxt/kit@3.14.1592(rollup@4.27.4))(@types/markdown-it@14.1.2)(@types/node@22.10.1)(axios@1.7.8)(postcss@8.4.49)(rollup@4.27.4)(terser@5.36.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.13)(yaml@2.6.1))
+      valaxy-addon-meting:
+        specifier: ^0.1.4
+        version: 0.1.4
       valaxy-addon-waline:
         specifier: ^0.2.0
         version: 0.2.0(typescript@5.7.2)(valaxy@0.20.6(@babel/parser@7.26.2)(@nuxt/kit@3.14.1592(rollup@4.27.4))(@types/markdown-it@14.1.2)(@types/node@22.10.1)(axios@1.7.8)(postcss@8.4.49)(rollup@4.27.4)(terser@5.36.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.13)(yaml@2.6.1))
       valaxy-theme-yun:
         specifier: 0.20.6
         version: 0.20.6(rollup@4.27.4)(vue@3.5.13(typescript@5.7.2))
+      vue-gtag-next:
+        specifier: ^1.14.0
+        version: 1.14.0(vue@3.5.13(typescript@5.7.2))
     devDependencies:
       typescript:
         specifier: ^5.7.2
@@ -2518,6 +2527,10 @@ packages:
   leac@0.6.0:
     resolution: {integrity: sha512-y+SqErxb8h7nE/fiEX07jsbuhrpO9lL8eca7/Y1nuWV2moNlXhyd59iDGcRf6moVyDMbmTNzL40SUyrFU/yDpg==}
 
+  lightgallery@2.8.2:
+    resolution: {integrity: sha512-6BV7joQtgdHUhDgNPeGu/RWqcGvmvwbyJpTdB5jgKX5nhU5yGEG3PVaETIlAEEV15Uop+8p+F3PqnokFUlywZA==}
+    engines: {node: '>=6.0.0'}
+
   linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
 
@@ -3413,6 +3426,14 @@ packages:
   valaxy-addon-components@0.0.4:
     resolution: {integrity: sha512-mpyDmQzBvzIR1PMEpDP6uVvx2YNVsApxAvLOMld4W+Rrygn+GzIc7h1HOQCOva6VYI3Lr9CheqI13gJlP2CHYg==}
 
+  valaxy-addon-lightgallery@0.0.3:
+    resolution: {integrity: sha512-fvw/8DBEgrcdEPHslOpdOvHOAxhxm1e8jGEaQhqNS6KY5YTTYvBGwl4vbadsGwAckES8lg0Wfvd0/9z+z7uTUA==}
+    peerDependencies:
+      valaxy: latest
+
+  valaxy-addon-meting@0.1.4:
+    resolution: {integrity: sha512-aTOCswBIg1/MOIC1vZ7ctaZOOEueVN99tEurAxukq15kJtqyps2/XqZw7Bjvik5LNbHtZd+TzmH+vrvhA/HF5w==}
+
   valaxy-addon-waline@0.2.0:
     resolution: {integrity: sha512-/aJ4XkMaKPVcZYdvzlJQVgbZ0KYZ24/BncJRmSdt33+rkRm8OeSvyQkwfXDnTJSyrbM3jL5qtLL9Bvl9JTHzTg==}
     peerDependencies:
@@ -3564,6 +3585,11 @@ packages:
     resolution: {integrity: sha512-JdgRRUVrN0Y2GosA0M68DEbKlXMqJ7FQgsK8CjQD2vxvNSqAU6PZEpi4cfcTVtfM2GVOMjHo7GKKLbXxOBqDqA==}
     peerDependencies:
       vue: ^3.4.37
+
+  vue-gtag-next@1.14.0:
+    resolution: {integrity: sha512-iJl+cOG2GU5NuxqzSSIpt03WVOvZqyKB9TOy7d55KiuvRklcnb2nlqxW5B/a3/sbIt7fla+XEkRyMCcoz0zAHw==}
+    peerDependencies:
+      vue: ^3.0.0-rc.11
 
   vue-i18n@10.0.5:
     resolution: {integrity: sha512-9/gmDlCblz3i8ypu/afiIc/SUIfTTE1mr0mZhb9pk70xo2csHAM9mp2gdQ3KD2O0AM3Hz/5ypb+FycTj/lHlPQ==}
@@ -6451,6 +6477,8 @@ snapshots:
 
   leac@0.6.0: {}
 
+  lightgallery@2.8.2: {}
+
   linkify-it@5.0.0:
     dependencies:
       uc.micro: 2.1.0
@@ -7465,6 +7493,13 @@ snapshots:
 
   valaxy-addon-components@0.0.4: {}
 
+  valaxy-addon-lightgallery@0.0.3(valaxy@0.20.6(@babel/parser@7.26.2)(@nuxt/kit@3.14.1592(rollup@4.27.4))(@types/markdown-it@14.1.2)(@types/node@22.10.1)(axios@1.7.8)(postcss@8.4.49)(rollup@4.27.4)(terser@5.36.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.13)(yaml@2.6.1)):
+    dependencies:
+      lightgallery: 2.8.2
+      valaxy: 0.20.6(@babel/parser@7.26.2)(@nuxt/kit@3.14.1592(rollup@4.27.4))(@types/markdown-it@14.1.2)(@types/node@22.10.1)(axios@1.7.8)(postcss@8.4.49)(rollup@4.27.4)(terser@5.36.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.13)(yaml@2.6.1)
+
+  valaxy-addon-meting@0.1.4: {}
+
   valaxy-addon-waline@0.2.0(typescript@5.7.2)(valaxy@0.20.6(@babel/parser@7.26.2)(@nuxt/kit@3.14.1592(rollup@4.27.4))(@types/markdown-it@14.1.2)(@types/node@22.10.1)(axios@1.7.8)(postcss@8.4.49)(rollup@4.27.4)(terser@5.36.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.13)(yaml@2.6.1)):
     dependencies:
       '@waline/client': 3.4.1(typescript@5.7.2)
@@ -7739,6 +7774,10 @@ snapshots:
       vue: 3.5.13(typescript@5.7.2)
 
   vue-flow-layout@0.1.1(vue@3.5.13(typescript@5.7.2)):
+    dependencies:
+      vue: 3.5.13(typescript@5.7.2)
+
+  vue-gtag-next@1.14.0(vue@3.5.13(typescript@5.7.2)):
     dependencies:
       vue: 3.5.13(typescript@5.7.2)
 

@@ -14,8 +14,11 @@
   "dependencies": {
     "valaxy": "0.20.6",
     "valaxy-addon-components": "^0.0.4",
+    "valaxy-addon-lightgallery": "^0.0.3",
+    "valaxy-addon-meting": "^0.1.4",
     "valaxy-addon-waline": "^0.2.0",
-    "valaxy-theme-yun": "0.20.6"
+    "valaxy-theme-yun": "0.20.6",
+    "vue-gtag-next": "^1.14.0"
   },
   "devDependencies": {
     "typescript": "^5.7.2",
