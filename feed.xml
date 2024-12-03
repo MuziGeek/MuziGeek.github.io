@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>木子的小站</title>
+        <link>https://www.easymuzi.cn/</link>
+        <description>道阻且艰 行则将至</description>
+        <lastBuildDate>Tue, 03 Dec 2024 14:44:20 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>木子的小站</title>
+            <url>https://www.easymuzi.cn/images/avatar.jpg</url>
+            <link>https://www.easymuzi.cn/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © 木子</copyright>
+        <atom:link href="https://www.easymuzi.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[hello Qexo]]></title>
+            <link>https://www.easymuzi.cn/posts/hello Qexo！！</link>
+            <guid>https://www.easymuzi.cn/posts/hello Qexo！！</guid>
+            <pubDate>Sun, 01 Dec 2024 14:01:03 GMT</pubDate>
+            <content:encoded><![CDATA[<p>hello Qexo！！</p>
+<br/><p>访问 <a href="https://www.easymuzi.cn/posts/hello Qexo！！" target="_blank">https://www.easymuzi.cn/posts/hello Qexo！！</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (木子)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://www.easymuzi.cn/posts/hello-valaxy</link>
+            <guid>https://www.easymuzi.cn/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://www.easymuzi.cn/posts/hello-valaxy" target="_blank">https://www.easymuzi.cn/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (木子)</author>
+        </item>
+    </channel>
+</rss>

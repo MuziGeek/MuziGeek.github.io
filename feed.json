@@ -1,0 +1,38 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "木子的小站",
+    "home_page_url": "https://www.easymuzi.cn/",
+    "feed_url": "https://www.easymuzi.cn/feed.json",
+    "description": "道阻且艰 行则将至",
+    "icon": "https://www.easymuzi.cn/images/avatar.jpg",
+    "author": {
+        "name": "木子",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<p>hello Qexo！！</p>\n<br/><p>访问 <a href=\"https://www.easymuzi.cn/posts/hello Qexo！！\" target=\"_blank\">https://www.easymuzi.cn/posts/hello Qexo！！</a> 阅读全文。</p>",
+            "url": "https://www.easymuzi.cn/posts/hello Qexo！！",
+            "title": "hello Qexo",
+            "date_modified": "2024-12-03T14:43:05.488Z",
+            "date_published": "2024-12-01T14:01:03.455Z",
+            "author": {
+                "name": "木子",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n<br/><p>访问 <a href=\"https://www.easymuzi.cn/posts/hello-valaxy\" target=\"_blank\">https://www.easymuzi.cn/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://www.easymuzi.cn/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "木子",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
