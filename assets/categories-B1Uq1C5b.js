@@ -1,0 +1,1 @@
+import{_ as r,r as i,o as m,g as l,w as n,e as o,h as p,i as f,j as u,k as d,l as y}from"./app-D9_PaQDc.js";const H={};function v(w,x){const e=p,t=f,_=i("router-view"),a=u,c=d,s=y;return m(),l(s,null,{default:n(()=>[o(e),o(t,{title:"分类"}),o(a,null,{default:n(()=>[o(_)]),_:1}),o(c)]),_:1})}const g=r(H,[["render",v]]);export{g as default};

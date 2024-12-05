@@ -1,0 +1,1 @@
+import{_ as i,r as l,o as m,g as p,w as n,e,h as u,i as f,j as d,k as y,l as H}from"./app-D9_PaQDc.js";const $={};function v(o,h){const a=u,t=f,_=l("router-view"),r=d,c=y,s=H;return m(),p(s,null,{default:n(()=>[e(a),e(t,{title:`发表于'${o.$route.params.year}年'的文章`},null,8,["title"]),e(r,null,{default:n(()=>[e(_)]),_:1}),e(c)]),_:1})}const k=i($,[["render",v]]);export{k as default};
