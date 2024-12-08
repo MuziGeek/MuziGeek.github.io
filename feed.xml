@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Muzi's Blog</title>
+        <link>https://www.easymuzi.cn/</link>
+        <description>Muzi's Notes</description>
+        <lastBuildDate>Sun, 08 Dec 2024 11:09:02 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Muzi's Blog</title>
+            <url>https://cdn.easymuzi.cn/gh/MuziGeek/Blog_Img/cdnImg/20241205010750914.jpg</url>
+            <link>https://www.easymuzi.cn/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © 木子金又二丨</copyright>
+        <atom:link href="https://www.easymuzi.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://www.easymuzi.cn/posts/hello-valaxy</link>
+            <guid>https://www.easymuzi.cn/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<p>&lt;hairy-image src=&quot;https:</p>
+<br/><p>访问 <a href="https://www.easymuzi.cn/posts/hello-valaxy" target="_blank">https://www.easymuzi.cn/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (木子金又二丨)</author>
+        </item>
+    </channel>
+</rss>
